@@ -1,0 +1,22 @@
+{
+  "yazilar": [
+    {
+      "ad": "Javascript öğreniyorum",
+      "aciklama": "Lorem ipsum",
+      "yazar": "sinem",
+      "id": 2
+    },
+    {
+      "ad": "Vue öğreniyorum",
+      "aciklama": "Lorem ipsum",
+      "yazar": "selin",
+      "id": 3
+    },
+    {
+      "ad": "React öğreniyorum",
+      "aciklama": "Fetch method",
+      "yazar": "serap",
+      "id": 4
+    }
+  ]
+}

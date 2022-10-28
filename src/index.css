@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #ff793f;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ff793f;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  cursor: pointer;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 30px;
+  color: #3c6382;
+  margin-bottom: 8px;
+  opacity: 0.7;
+}
+.loading{
+  font-size:50px;
+  color:#ff793f;
+}
+.error{
+  color:crimson;
+  font-size:50px;
+}
+
+.blog-preview{
+
+}
+
+
+.create {
+  color: #555;
+  max-width: 480px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.create label  {
+ text-align: left;
+ display: block;
+}
+.create input, .create textarea, .create select {
+width:100%;
+padding: 6px 10px;
+margin:10px 0;
+border:1px solid #ddd;
+display: block;
+box-sizing: border-box;
+}
+.create .btn {
+  display: block;
+  width: 100px;
+  font-size: 1em;
+  color: #fff;
+  padding: 8px 8px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #ff793f;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px auto;
+}
+
+.create .btn:hover{
+  background-color: #fff;
+  border:1px solid #786fa6;
+  color: #ff793f;
+}
+
+.not-found{
+  
+
+}.not-found h2{
+ 
+  font-size: 3em;
+}
+
+.blog-details h2{
+font-size:28px;
+color:#3c6382;
+margin-bottom:10px
+}
+
+.blog-details div{
+  margin:30px 0;
+}
+.blog-details .btn{
+ 
+  width: 100px;
+  font-size: 1em;
+  color: #fff;
+  padding: 8px 8px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #ff3f3f;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px auto;
+}
